@@ -1,15 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import PyPDF2
-
-def extract_text_from_file(file):
-    text = ""
-    reader = PyPDF2.PdfReader(file)
-    for page in reader.pages:
-        text += page.extract_text() or ""
-    return text
-
+import os
 from datetime import datetime
 import json
 from utils.text_extractor import extract_text_from_file
