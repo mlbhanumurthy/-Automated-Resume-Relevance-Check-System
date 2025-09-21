@@ -1,0 +1,8 @@
+Enhance the placement dashboard with advanced filtering and sorting options
+
+Refactors the placement dashboard in `app.py` to include advanced filtering (score range, verdict, job, company, date, email domain) and sorting capabilities, while also adding a new `replit.md` file detailing the project overview, architecture, dependencies, and scoring methodology.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 84114d49-57b4-4fcd-bb2a-9d2be89ce997
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/4a0a40fc-1554-4719-b2e5-9db7071aa933/84114d49-57b4-4fcd-bb2a-9d2be89ce997/VKWHMLf
